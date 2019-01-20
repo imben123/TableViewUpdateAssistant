@@ -60,6 +60,10 @@ extension ViewController: UITableViewDataSource {
         return rowData.count
     }
 
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Section: \(section)"
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return rowData[section].count
     }
@@ -70,9 +74,5 @@ extension ViewController: UITableViewDataSource {
         cell.textLabel?.text = "\(data.id)"
         cell.contentView.backgroundColor = data.color
         return cell
-    }
-
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Section: \(section)"
     }
 }
