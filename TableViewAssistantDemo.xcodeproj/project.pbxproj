@@ -20,6 +20,7 @@
 		B554D09A21F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09921F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift */; };
 		B554D09F21F3E00900D36317 /* TableViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09E21F3E00900D36317 /* TableViewMock.swift */; };
 		B554D0A121F3E2D400D36317 /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D0A021F3E2D400D36317 /* DummyModel.swift */; };
+		B5BE9DDD21F4D7A30021684F /* RowDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BE9DDC21F4D7A30021684F /* RowDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B554D09921F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathChangeSetBuilderTests.swift; sourceTree = "<group>"; };
 		B554D09E21F3E00900D36317 /* TableViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMock.swift; sourceTree = "<group>"; };
 		B554D0A021F3E2D400D36317 /* DummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModel.swift; sourceTree = "<group>"; };
+		B5BE9DDC21F4D7A30021684F /* RowDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				B554D06621F39D3D00D36317 /* AppDelegate.swift */,
 				B554D08221F39D6600D36317 /* ViewController.swift */,
+				B5BE9DDC21F4D7A30021684F /* RowDataSource.swift */,
 				B554D08121F39D4A00D36317 /* TableViewAssistant */,
 				B554D06821F39D3F00D36317 /* Assets.xcassets */,
 				B554D06A21F39D3F00D36317 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				B554D09821F3AD4200D36317 /* IndexPathChangeSetBuilder.swift in Sources */,
 				B554D09421F3AC6700D36317 /* TableViewUpdateAssistant.swift in Sources */,
 				B554D08321F39D6600D36317 /* ViewController.swift in Sources */,
+				B5BE9DDD21F4D7A30021684F /* RowDataSource.swift in Sources */,
 				B554D08D21F39F9200D36317 /* IndexPathChangeSet.swift in Sources */,
 				B554D06721F39D3D00D36317 /* AppDelegate.swift in Sources */,
 			);
