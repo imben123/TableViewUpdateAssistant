@@ -11,6 +11,15 @@
 		B554D06921F39D3F00D36317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554D06821F39D3F00D36317 /* Assets.xcassets */; };
 		B554D06C21F39D3F00D36317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B554D06A21F39D3F00D36317 /* LaunchScreen.storyboard */; };
 		B554D07721F39D3F00D36317 /* TableViewAssistantDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D07621F39D3F00D36317 /* TableViewAssistantDemoTests.swift */; };
+		B554D08321F39D6600D36317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D08221F39D6600D36317 /* ViewController.swift */; };
+		B554D08D21F39F9200D36317 /* IndexPathChangeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D08C21F39F9200D36317 /* IndexPathChangeSet.swift */; };
+		B554D08F21F3A33700D36317 /* IndexPathChangeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D08E21F3A33700D36317 /* IndexPathChangeSetTests.swift */; };
+		B554D09421F3AC6700D36317 /* TableViewUpdateAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09321F3AC6700D36317 /* TableViewUpdateAssistant.swift */; };
+		B554D09621F3AC7600D36317 /* TableViewUpdateAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09521F3AC7600D36317 /* TableViewUpdateAssistantTests.swift */; };
+		B554D09821F3AD4200D36317 /* IndexPathChangeSetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09721F3AD4200D36317 /* IndexPathChangeSetBuilder.swift */; };
+		B554D09A21F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09921F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift */; };
+		B554D09F21F3E00900D36317 /* TableViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D09E21F3E00900D36317 /* TableViewMock.swift */; };
+		B554D0A121F3E2D400D36317 /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554D0A021F3E2D400D36317 /* DummyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,15 @@
 		B554D07221F39D3F00D36317 /* TableViewAssistantDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssistantDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554D07621F39D3F00D36317 /* TableViewAssistantDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssistantDemoTests.swift; sourceTree = "<group>"; };
 		B554D07821F39D3F00D36317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B554D08221F39D6600D36317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B554D08C21F39F9200D36317 /* IndexPathChangeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathChangeSet.swift; sourceTree = "<group>"; };
+		B554D08E21F3A33700D36317 /* IndexPathChangeSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathChangeSetTests.swift; sourceTree = "<group>"; };
+		B554D09321F3AC6700D36317 /* TableViewUpdateAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUpdateAssistant.swift; sourceTree = "<group>"; };
+		B554D09521F3AC7600D36317 /* TableViewUpdateAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUpdateAssistantTests.swift; sourceTree = "<group>"; };
+		B554D09721F3AD4200D36317 /* IndexPathChangeSetBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathChangeSetBuilder.swift; sourceTree = "<group>"; };
+		B554D09921F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPathChangeSetBuilderTests.swift; sourceTree = "<group>"; };
+		B554D09E21F3E00900D36317 /* TableViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMock.swift; sourceTree = "<group>"; };
+		B554D0A021F3E2D400D36317 /* DummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				B554D06621F39D3D00D36317 /* AppDelegate.swift */,
+				B554D08221F39D6600D36317 /* ViewController.swift */,
+				B554D08121F39D4A00D36317 /* TableViewAssistant */,
 				B554D06821F39D3F00D36317 /* Assets.xcassets */,
 				B554D06A21F39D3F00D36317 /* LaunchScreen.storyboard */,
 				B554D06D21F39D3F00D36317 /* Info.plist */,
@@ -88,6 +108,21 @@
 				B554D07821F39D3F00D36317 /* Info.plist */,
 			);
 			path = TableViewAssistantDemoTests;
+			sourceTree = "<group>";
+		};
+		B554D08121F39D4A00D36317 /* TableViewAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				B554D08C21F39F9200D36317 /* IndexPathChangeSet.swift */,
+				B554D08E21F3A33700D36317 /* IndexPathChangeSetTests.swift */,
+				B554D09721F3AD4200D36317 /* IndexPathChangeSetBuilder.swift */,
+				B554D09921F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift */,
+				B554D09321F3AC6700D36317 /* TableViewUpdateAssistant.swift */,
+				B554D09521F3AC7600D36317 /* TableViewUpdateAssistantTests.swift */,
+				B554D09E21F3E00900D36317 /* TableViewMock.swift */,
+				B554D0A021F3E2D400D36317 /* DummyModel.swift */,
+			);
+			path = TableViewAssistant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B554D09821F3AD4200D36317 /* IndexPathChangeSetBuilder.swift in Sources */,
+				B554D09421F3AC6700D36317 /* TableViewUpdateAssistant.swift in Sources */,
+				B554D08321F39D6600D36317 /* ViewController.swift in Sources */,
+				B554D08D21F39F9200D36317 /* IndexPathChangeSet.swift in Sources */,
 				B554D06721F39D3D00D36317 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B554D0A121F3E2D400D36317 /* DummyModel.swift in Sources */,
+				B554D09A21F3AD4800D36317 /* IndexPathChangeSetBuilderTests.swift in Sources */,
+				B554D08F21F3A33700D36317 /* IndexPathChangeSetTests.swift in Sources */,
+				B554D09621F3AC7600D36317 /* TableViewUpdateAssistantTests.swift in Sources */,
 				B554D07721F39D3F00D36317 /* TableViewAssistantDemoTests.swift in Sources */,
+				B554D09F21F3E00900D36317 /* TableViewMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XMV2GP24E;
 				INFOPLIST_FILE = TableViewAssistantDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XMV2GP24E;
 				INFOPLIST_FILE = TableViewAssistantDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
